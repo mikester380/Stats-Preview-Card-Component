@@ -24,6 +24,7 @@ body {
   padding: 0 1.9rem;
   background-color: var(--very-dark-blue);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -99,6 +100,16 @@ body {
   text-transform: uppercase;
   color: var(--slightly-transparent-white);
   font-family: var(--ff-one);
+}
+
+.attribution{
+  color: var(--white);
+  font-size: .7rem;
+  margin-top: .63rem;
+}
+
+.attribution a:link, a:visited{
+  color: var(--soft-violet);
 }
 
 @media (min-width: 900px){
